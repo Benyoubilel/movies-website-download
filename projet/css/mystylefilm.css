@@ -1,0 +1,85 @@
+.menu {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+.bttn {
+  background-image: url("../img/icons8-search.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 90%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-style: italic;
+  font-family: cursive;
+  border: none;
+}
+.rech {
+  width: 90%;
+  height: 30%;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  text-align: center;
+  font-style: italic;
+  font-family: cursive;
+  border: none;
+}
+
+.search,
+.rech:focus {
+  outline: none;
+  background-color: white;
+}
+.recherche {
+  position: absolute;
+  top: auto;
+  left: 50%;
+  width: 20%;
+}
+
+.profil {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+}
+
+/*  ------- Carousel ------ */
+/* titre film */
+.title {
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 30px;
+}
+.title:hover {
+  color: lightslategray;
+}
+title:visited {
+  color: black;
+}
+/* end title films */
+/*end carousel */
+
+/*---ZONE DE RECHERCHE------*/
+
+.search {
+  width: 80%;
+  background-color: #a2a2a2;
+  border-radius: 4px;
+  border: none;
+  height: 40px;
+}
+
+.label {
+  color: #5a5a5a;
+}
+.btns {
+  height: 40px;
+  position: absolute;
+  top: 14%;
+  left: 76%;
+}
+
+/*end of zone search */

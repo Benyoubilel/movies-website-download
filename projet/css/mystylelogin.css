@@ -1,0 +1,86 @@
+.menu {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+.bttn {
+  background-image: url("../img/icons8-search.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 90%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-style: italic;
+  font-family: cursive;
+  border: none;
+}
+.rech {
+  width: 90%;
+  height: 30%;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  text-align: center;
+  font-style: italic;
+  font-family: cursive;
+  border: none;
+}
+
+.search,
+.rech:focus {
+  outline: none;
+  background-color: white;
+}
+.recherche {
+  position: absolute;
+  top: auto;
+  left: 50%;
+  width: 20%;
+}
+
+.profil {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+}
+.image {
+  width: 100%;
+}
+
+/*---ZONE login------*/
+
+.password,
+.username {
+  width: 100%;
+  height: 50px;
+  font-family: "Courier New", Courier, monospace;
+  border: none;
+  background-color: transparent;
+}
+.label {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  color: lightslategray;
+}
+.password:focus,
+.username:focus {
+  outline: none;
+  background-color: transparent;
+}
+footer {
+  background-color: rgb(46, 43, 43);
+}
+.login {
+  width: 100%;
+  height: 50px;
+  font-family: "Courier New", Courier, monospace;
+  border: none;
+}
+.text {
+  font-family: "Courier New", Courier, monospace;
+
+  color: lightslategray;
+}
